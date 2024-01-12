@@ -40,7 +40,7 @@ listData = [
     icon: HomeIcon,
     description: 'Obtain the full property record for any property in the U.S.',
     stepsTitle: '3 Steps',
-    buttonText: 'Open Recipe',
+    buttonText: 'Coming Soon',
   },
   {
     title: `It's as Easy as Two API Calls`,
@@ -48,7 +48,7 @@ listData = [
     description:
       'Make the most of our property data sets by enriching your Property Search results with the Property Bulk Detail API',
     stepsTitle: '3 Steps',
-    buttonText: 'Open Recipe',
+    buttonText: 'Coming Soon',
   },
   {
     title: 'Property Search: Paging Example',
@@ -56,7 +56,7 @@ listData = [
     description:
       'Using a Property Search Count query in order to page through a list of filter results larger than the maximum size of 250',
     stepsTitle: '3 Steps',
-    buttonText: 'Open Recipe',
+    buttonText: 'Coming Soon',
   },
   {
     title: `Determine a Property Parcel's Geographic Boundaries`,
@@ -64,7 +64,7 @@ listData = [
     description:
       'Get the geographic boundaries for the provided property. The results from this endpoint will help you overlay properties on Google Maps and other map interfaces in your applications',
     stepsTitle: '3 Steps',
-    buttonText: 'Open Recipe',
+    buttonText: 'Coming Soon',
   },
 ];
 
@@ -202,7 +202,9 @@ export default function Home() {
                   return (
                     <button
                       className="w-full rounded-md p-2 text-center text-m bg-black text-white"
-                      onClick={() => {}}
+                      onClick={() => {
+                        i === 0 ? setOpen(true) : void 0;
+                      }}
                     >
                       {innerData.buttonText}
                     </button>
