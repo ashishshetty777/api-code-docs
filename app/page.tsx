@@ -164,7 +164,7 @@ export default function Home() {
             </p>
             <p className="text-gray-500 pb-4">
               <span className="text-sm pr-2">3 </span>
-              <span className="text-sm">What's Next?</span>
+              <span className="text-sm">What&apos;s Next?</span>
             </p>
             <div>
               <button

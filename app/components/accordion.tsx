@@ -168,7 +168,7 @@ export default function Accordion(props: any) {
             setAccordion3();
           }}
         >
-          <span>What's Next?</span>
+          <span>What&apos;s Next?</span>
         </button>
       </h2>
       <div
@@ -179,7 +179,7 @@ export default function Accordion(props: any) {
         <div className="p-5 border border-t-0 bg-white">
           <p className="mb-2 text-gray-700">
             Depending on the type of application you are building, you can do
-            different things with the data from this endpoint's responses.
+            different things with the data from this endpoint&apos;s responses.
           </p>
           <p className="mb-2 text-gray-700">
             You can enrich contacts in your CRM, enrich list builder leads with
