@@ -84,8 +84,8 @@ export default function SecondAccordion(props: any) {
             Use your RealEstateAPI key to make calls to the Property Search API.
           </p>
           <p className="mb-2 text-gray-700">
-            You can include an 'x-user-id' field that will allow you separate
-            actions from your app user-by-user
+            You can include an &apos;x-user-id&apos; field that will allow you
+            separate actions from your app user-by-user
           </p>
           <button
             className="text-gray-400 flex items-center font-semibold"
@@ -156,8 +156,8 @@ export default function SecondAccordion(props: any) {
         <div className="p-5 border border-b-0 bg-white">
           <p className="mb-2 text-gray-700">
             You can mix and match the filters however you see fit, but the more
-            you select to be 'true', the less results you are likely to get
-            back.
+            you select to be &apos;true&apos;, the less results you are likely
+            to get back.
           </p>
           <button
             className="text-gray-400 flex items-center font-semibold"
@@ -227,10 +227,10 @@ export default function SecondAccordion(props: any) {
       >
         <div className="p-5 border border-t-0 bg-white">
           <p className="mb-2 text-gray-700">
-            Once you've learned how to do a basic query, the next step would be
-            to learn how to utilize the Property Detail or Property Detail Bulk
-            API to get even more comprehensive data on your properties returned
-            from the Property Search API.
+            Once you&apos;ve learned how to do a basic query, the next step
+            would be to learn how to utilize the Property Detail or Property
+            Detail Bulk API to get even more comprehensive data on your
+            properties returned from the Property Search API.
           </p>
         </div>
       </div>
