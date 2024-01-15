@@ -16,6 +16,7 @@ import {
 import Layout from './components/layout';
 import Cards from './components/card';
 import DialogModal from './components/dialog';
+import SecondDialogModal from './components/secondDialog';
 
 let listData: Array<object>;
 
@@ -70,6 +71,7 @@ listData = [
 
 export default function Home() {
   const [open, setOpen] = React.useState(false);
+  const [secondOpen, secondSetOpen] = React.useState(false);
 
   const [value, setValue] = React.useState(`
   JavaScript
@@ -203,7 +205,11 @@ export default function Home() {
                     <button
                       className="w-full rounded-md p-2 text-center text-m bg-black text-white"
                       onClick={() => {
-                        i === 0 ? setOpen(true) : void 0;
+                        i === 0
+                          ? setOpen(true)
+                          : i === 1
+                            ? secondSetOpen(true)
+                            : void 0;
                       }}
                     >
                       {innerData.buttonText}
@@ -216,6 +222,7 @@ export default function Home() {
         </div>
       </main>
       <DialogModal open={open} setOpen={setOpen} />
+      <SecondDialogModal open={secondOpen} setOpen={secondSetOpen} />
     </Layout>
   );
 }
